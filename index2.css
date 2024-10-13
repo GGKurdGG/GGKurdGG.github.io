@@ -1,0 +1,65 @@
+body {
+    
+    background-color: rgb(255, 255, 255);
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    background-image: url(images/futuristic-moon-background.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.header {
+background-color: rgba(236, 12, 12, 0.418);
+justify-content: center;
+display: flex;
+border-radius: 5px;
+outline: none;
+border: none;
+
+
+
+
+}
+.bordershape{
+    border-radius: 10px;
+    border: 200px;
+margin: 100px; 
+    background-color: rgb(67,51,72);
+    
+ border-color: black;
+ padding: 50px;
+ 
+
+}
+.bordershapeb {
+    color: rgb(255, 0, 0);
+    justify-content: center;
+    display: flex;
+    border-radius: 5px;
+   padding: 10px;
+   background-color: rgba(0, 0, 0, 0.184);
+    
+    
+   
+   
+  
+}
+.bordershapeb:hover{
+    box-shadow: 0 0 5px red,
+    0 0 25px red,
+    0 0 50px red,
+    0 0 200px red;
+    
+    display: flex;
+    justify-content: center;
+   
+   background-color: rgba(0, 0, 0, 0.217)
+   
+}
+
+.loginborder input{
+border-radius: 5px;
+outline: none; 
+border: 0px;
+
+}
